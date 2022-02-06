@@ -4,6 +4,9 @@ public class Runner {
 	public static void main(String[] args) {
 		LazyNumberDetails lnd = new LazyNumberDetails(1_000_000_009);
 
+		// Prints pula
+		System.out.println("Pula");
+
 		// Prime number nano time
 		long start1 = System.nanoTime();
 		boolean result1 = lnd.isPrime();
